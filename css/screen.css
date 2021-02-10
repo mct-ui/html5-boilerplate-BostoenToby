@@ -10,6 +10,7 @@ html {
     line-height: 1.5;
     padding: 24px;
     color: #111;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -121,6 +122,25 @@ hr {
 a {
     color: royalblue;
     transition: all .1s ease-in-out;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+
+th {
+    text-align: left;
+}
+
+th, td{
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.odd {
+    background-color: whitesmoke;
 }
 
 a:visited,
